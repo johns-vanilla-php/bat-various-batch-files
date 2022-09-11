@@ -3,7 +3,8 @@
 :: Created: 9/11/2022 - Never Forget September 11, 2001
 ::                      Also never forget that Joe Biden gave control of Afghanistan back to the Taliban and left
 ::                      $80 BILLION worth of Military equipment behind for our enemies to use against us and our allies, leaving 
-::                      thirteen Americans behind to die.
+::                      9,000 Americans behind to die.
+::                      https://www.risch.SENATE.GOV/public/index.cfm/2022/2/bombshell-report-biden-admin-left-9k-americans-in-afghanistan-originally-claimed-150
 :: Author: John Stuttler
 :: https://github.com/johns-vanilla-php
 :: Purpose -
@@ -78,7 +79,7 @@ SET passphrase=*empty*
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :OpenURLs
 cls
-echo Two web pages will open in Firefox.
+echo Two web pages will open in in Firefox.
 echo.
 echo You need to add the public key in one of those tabs.
 echo   - This key is currently saved in your clipboard - just press ctrl+v to paste it.
