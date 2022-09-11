@@ -1,6 +1,8 @@
 :: ssh-keygen.bat
-:: Version 1.0
-:: Created: 9/5/2022
+:: Version 1.1
+:: Created: 9/11/2022 - Never Forget September 11, 2001
+::                      Also never forget that Joe Biden gave control of Afghanistan back to the Taliban and left
+::                      $80 BILLION worth of Military equipment behind for our enemies to use against us and our allies.
 :: Author: John Stuttler
 :: https://github.com/johns-vanilla-php
 :: Purpose -
@@ -69,12 +71,10 @@ IF not defined passphrase GOTO EmptyPassphrase
 GOTO OpenURLs
 
 :: Set Passphrase to *blank* if it was left empty ::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :EmptyPassphrase
 SET passphrase=*empty*
 
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :OpenURLs
 cls
 echo Two web pages will open in Firefox.
@@ -95,13 +95,11 @@ start firefox.exe https://github.com/settings/tokens/new
 SET /P PAT=Paste the PAT from GitHub (https://github.com/settings/tokens/new) here:
 
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :SAVE
 cls
 cd %UserProfile%\.ssh\
 
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :readme-file
 echo. >> readme.txt
 echo github.com/%githubuser%>> readme.txt
@@ -114,7 +112,6 @@ echo Important information regarding this key has been saved to %UserProfile%\.s
 echo.
 
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :config-file
 echo. >> config
 echo. >> config
@@ -125,7 +122,6 @@ echo Your config file has been updated %UserProfile%\.ssh\config
 echo.
 
 :: Open Github URLs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: Github Account (email) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 set /p Build=<%filename%.pub
 echo github.com %build%>> known_hosts
 echo Your known_hosts file has been updated %UserProfile%\.ssh\known_hosts
@@ -162,7 +158,6 @@ echo The Github email address is REQUIRED
 GOTO ErrMsg
 
 :: Error Message - Missing Github Email Address ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :ErrMsg
 pause
 GOTO %gt%
