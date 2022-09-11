@@ -170,7 +170,7 @@ GOTO %gt%
 :: Prompt to see if the user wants to create another key. ::::::::::::::::::::::::::::::::::::::::::::::
 : exit
 set /p another=Do you want to generate another key? ([y]es / [n]o)
-if another
+if %another%=="y" GOTO User-Prompt
 cls
 echo This script has completed and will now close.
 pause
