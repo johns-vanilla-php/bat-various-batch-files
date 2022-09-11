@@ -4,8 +4,9 @@
 This file is used to create a Secure Shell (SSH) connection between Virtual Studio Code (VS Code) and GitHub.
 
 ## Install
-### Copy and Paste Method
-The easies way to use this is to copy the contents of the [generate-github-keys.bat](ssh-keygen/generate-github-keys.bat) and paste them into a new Text (.txt) document.  Chamge the file extension from .txt to .bat, then double-click the file to run it.  It doesn's matter where you save the file.
+You can copy the contents of the [generate-github-keys.bat](ssh-keygen/generate-github-keys.bat) and paste them into a new Text (.txt) document.  Chamge the file extension from .txt to .bat, then double-click the file to run it.  
+You can also right-click the link above, select "Save File As", and select a file location.
+It doesn's matter where you save the file.
   
 ## How to Use
 - Double-click the file to run it.
