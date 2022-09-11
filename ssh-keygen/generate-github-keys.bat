@@ -2,7 +2,8 @@
 :: Version 1.1
 :: Created: 9/11/2022 - Never Forget September 11, 2001
 ::                      Also never forget that Joe Biden gave control of Afghanistan back to the Taliban and left
-::                      $80 BILLION worth of Military equipment behind for our enemies to use against us and our allies.
+::                      $80 BILLION worth of Military equipment behind for our enemies to use against us and our allies, leaving 
+::                      thirteen Americans behind to die.
 :: Author: John Stuttler
 :: https://github.com/johns-vanilla-php
 :: Purpose -
@@ -18,7 +19,7 @@ TITLE Create SSH Key
 
 :: Define Screen Colors ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Setting color requires 2 digits...the first is the background color, and the other is text color
-: Colors:
+: Colors
 ::   00 = Black       08 = Gray
 ::   01 = Blue        09 = Light Blue
 ::   02 = Green       0A = Light Green
@@ -80,7 +81,7 @@ cls
 echo Two web pages will open in Firefox.
 echo.
 echo You need to add the public key in one of those tabs.
-echo   - This key is currently saved in your clipboard.
+echo   - This key is currently saved in your clipboard - just press ctrl+v to paste it.
 echo.
 echo After you have created the public key, open the other tab to create a new Public Access Token (PAT).
 echo   - Copy the PAT to your clipboard.
@@ -90,6 +91,8 @@ pause
 echo.
 start firefox.exe https://github.com/settings/ssh/new
 start firefox.exe https://github.com/settings/tokens/new
+timeout 5
+cls
 
 :: Prompt for Personal Access Token ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 SET /P PAT=Paste the PAT from GitHub (https://github.com/settings/tokens/new) here:
@@ -168,4 +171,7 @@ set /p another=Do you want to generate another key? ([y]es / [n]o)
 if %another%=="y" GOTO User-Prompt
 cls
 echo This script has completed and will now close.
+echo.
+echo Please restart your computer for these changes to go into effect.
+echo.
 pause
