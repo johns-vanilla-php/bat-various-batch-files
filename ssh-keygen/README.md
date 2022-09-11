@@ -15,4 +15,5 @@ It doesn's matter where you save the file.
   - SSH File Name
     - Create a meaningful name for you to know which key is which
     - For example, if I use vscode-github-johns-vanilla-php then I know that key allows VS Code to interact with https://github.com/johns-vanilla-php
+    - ==DO NOT INCLUDE A FILE EXTENSION==
   - GitHub email address - the email address associated with your GitHub account
