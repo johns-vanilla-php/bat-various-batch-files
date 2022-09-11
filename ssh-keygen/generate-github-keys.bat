@@ -1,4 +1,4 @@
-:: ssh-keygen.bat
+:: generate-github-keys.bat
 :: Version 1.1
 :: Created: 9/11/2022 - Never Forget September 11, 2001
 ::                      Also never forget that Joe Biden gave control of Afghanistan back to the Taliban and left
