@@ -12,7 +12,7 @@ It doesn's matter where you save the file.
 - Double-click the file to run it.
 - You will be prompted to enter the following:
   - GitHub User Name
-  ![Username Example](ssh-keygen/resources/example-1.png)
+  ![Username](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/bc3293cf8cc2c1ec25259e07280bb8146748f525/ssh-keygen/resources/example-1.png)
   - SSH File Name
     - Create a meaningful name for you to know which key is which
     - For example, if I use vscode-github-johns-vanilla-php then I know that key allows VS Code to interact with https://github.com/johns-vanilla-php
