@@ -18,4 +18,4 @@ It doesn's matter where you save the file.
     - **DO NOT INCLUDE A FILE EXTENSION**
   - GitHub email address - the email address associated with your GitHub account
 - The SSH Key will be generated and you will see something like this:
-<img alt="Example Directory Listing" src="ssh-keygen/resources/bat-example1.png" />
+![Example Directory Listing](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/7680e69f8de26395292be0c1d52fa065c656d233/ssh-keygen/resources/bat-example1.png)
