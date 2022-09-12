@@ -18,4 +18,6 @@ It doesn's matter where you save the file.
     - **DO NOT INCLUDE A FILE EXTENSION**
   - GitHub email address - the email address associated with your GitHub account
 - The SSH Key will be generated and you will see something like this:
-![Example Directory Listing](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/7680e69f8de26395292be0c1d52fa065c656d233/ssh-keygen/resources/bat-example1.png)
+![Example Directory Listing](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/c6ca796362a3c16e0df41088d5b720004d0ed0c5/ssh-keygen/resources/bat-example4.png)
+- You need to copy the "key fingerprint" (highlighted in this example) and paste it at the prompt.  Just highlight the fingerprint, press ctrl+c, then press ctrl+v.
+![Copy and Paste the Fingerprint](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/c6ca796362a3c16e0df41088d5b720004d0ed0c5/ssh-keygen/resources/bat-example5.png)
