@@ -12,6 +12,7 @@ It doesn's matter where you save the file.
 - Double-click the file to run it.
 - You will be prompted to enter the following:
   - GitHub User Name
+  ![Copy and Paste the Fingerprint](ssh-keygen/resources/example-1.png)
   - SSH File Name
     - Create a meaningful name for you to know which key is which
     - For example, if I use vscode-github-johns-vanilla-php then I know that key allows VS Code to interact with https://github.com/johns-vanilla-php
