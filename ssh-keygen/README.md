@@ -1,5 +1,13 @@
 # generate-github-keys.bat
 
+## Notes:
+This script was designed with the following assumptions:
+- You have a GitHub Account
+- You are running Windows 10+
+- You have Visual Studio Code installed
+- You have FireFox installed
+- Your computer is up to date
+
 ## What it does
 This file is used to create a Secure Shell (SSH) connection between Virtual Studio Code (VS Code) and GitHub.
 
@@ -36,12 +44,25 @@ It doesn's matter where you save the file.
 - The other browser tab that opened will allow you to generate a Personal Access Token (PAT), and should look something like this:
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-9.png)
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-10.png)
-![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-11png)
-- Once you click Add SSH Key, you should see something like this:
-![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-12png)
-- Copy the key (underlined in red above) by highlighting it and pressing ctrl+c or by clicking on the icon to the right of it:
-![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-14png)
+![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-11.png)
+![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-12.png)
+- Once you click Generate Token, you should see something like this:
+![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/4f0fa87933c74cb8c326c04e89f768bd1c3f708f/ssh-keygen/resources/example-14.png)
+- Copy the key (underlined in red above) by highlighting it and pressing ctrl+c or by clicking on the icon to the right of it
 - Leave this browser window open for now, just in case it isn't copied for some reason.
-- Return to this script and you should now see a prompt asking you to paste this key.  Press ctrl+v to paste it.
-![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-15.png)
+- Return to this script and you should now see a prompt asking you to paste this token.  Press ctrl+v to paste it.
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-16.png)
+
+## Finishing Up
+Follow the remaining prompts to complete this script.  This script will automatically edit the following files in your .ssh directory, which is found at C:\Users\your-user-name\.ssh
+- config (no file extension)
+- filename (no extension)
+  - This will be whatever filename you entered in the beginning of the script
+  - This is your PRIVATE key - **do NOT share this**
+- filename.pub
+  - This will be whatever filename you entered in the beginning of the script
+  - This is your PUBLIC key
+- README.txt
+  - This file saves all of the data that was created by this script so that you have a backup of everything related to all of the Keys that you;ve generated with this script.
+  - **do NOT share this**
+- known_hosts (no file extension)
