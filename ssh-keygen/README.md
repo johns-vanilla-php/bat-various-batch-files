@@ -40,7 +40,7 @@ It doesn's matter where you save the file.
 - Once you click Add SSH Key, you should see something like this:
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-12png)
 - Copy the key (underlined in red above) by highlighting it and pressing ctrl+c or by clicking on the icon to the right of it:
-![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-13png)
+![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-14png)
 - Leave this browser window open for now, just in case it isn't copied for some reason.
 - Return to this script and you should now see a prompt asking you to paste this key.  Press ctrl+v to paste it.
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-15.png)
