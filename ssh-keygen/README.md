@@ -2,9 +2,10 @@
 
 ## Notes:
 This script was designed with the following assumptions:
-- You have a GitHub Account
+- You have a GitHub Account [^1]
 - You are running Windows 10+
-- You have Visual Studio Code installed
+- You have Visual Studio Code installed [^2]
+- You have Git installed [^3]
 - You have FireFox installed
 - Your computer is up to date
 
@@ -66,3 +67,8 @@ Follow the remaining prompts to complete this script.  This script will automati
   - This file saves all of the data that was created by this script so that you have a backup of everything related to all of the Keys that you;ve generated with this script.
   - **do NOT share this**
 - known_hosts (no file extension)
+
+
+[^1]: Create a GitHub account at https:www.github.com
+[^2]: Download Visual Studio Code at https://code.visualstudio.com/download
+[^3]: Download Git at https://git-scm.com/downloads
