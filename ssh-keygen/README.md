@@ -6,7 +6,7 @@ This script was designed with the following assumptions:
 - You are running Windows 10+
 - You have Visual Studio Code installed [^2]
 - You have Git installed [^3]
-- You have FireFox installed
+- You have FireFox installed [^4]
 - Your computer is up to date
 
 ## What it does
@@ -72,3 +72,4 @@ Follow the remaining prompts to complete this script.  This script will automati
 [^1]: Create a GitHub account at https:www.github.com
 [^2]: Download Visual Studio Code at https://code.visualstudio.com/download
 [^3]: Download Git at https://git-scm.com/downloads
+[^4]: Download FireFox at https://www.mozilla.org/en-US/firefox/new/
