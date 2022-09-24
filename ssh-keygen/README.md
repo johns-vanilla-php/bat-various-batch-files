@@ -55,7 +55,7 @@ It doesn's matter where you save the file.
 ![](https://github.com/johns-vanilla-php/bat-various-batch-files/blob/18c24e3a47ac9d2981325626ef40d28a59834f30/ssh-keygen/resources/example-16.png)
 
 ## Finishing Up
-Follow the remaining prompts to complete this script.  This script will automatically edit the following files in your .ssh directory, which is found at C:\Users\your-user-name\.ssh
+Follow the remaining prompts to complete this script.  This script will automatically edit the following files in your .ssh directory, which is found at C:\Users\your-user-name\\.ssh
 - config (no file extension)
 - filename (no extension)
   - This will be whatever filename you entered in the beginning of the script
@@ -64,7 +64,7 @@ Follow the remaining prompts to complete this script.  This script will automati
   - This will be whatever filename you entered in the beginning of the script
   - This is your PUBLIC key
 - README.txt
-  - This file saves all of the data that was created by this script so that you have a backup of everything related to all of the Keys that you;ve generated with this script.
+  - This file saves all of the data that was created by this script so that you have a backup of everything related to all of the Keys that you've generated with this script.
   - **do NOT share this**
 - known_hosts (no file extension)
 
