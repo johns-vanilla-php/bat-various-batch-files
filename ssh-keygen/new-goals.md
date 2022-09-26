@@ -1,0 +1,34 @@
+# Items to improve
+- Automate for multiple GitHub Accounts
+  - Check to see if the settings.cmd file exists
+    - If not, then start from the beginning - set a reference point - and create settings.cmd
+    - If so, collect the following variables:
+      - numAccounts
+      - a1-github-name
+      - a1-github-email
+      - a1-github-file
+      - a1-PAT
+      - defBrowser
+- Browser Select
+  - Prompt to select default browser if not found in settings.cmd
+  - Allow the required GitBub pages to open in the following browsers:
+    - FireFox
+    - Edge
+    - Chrome
+    - Safari
+  - Save choice to settings.cmd
+- Ask how many accounts they would like to create
+  - Check and display how many accounts are already recorded in settings.cmd
+  - Loop through the creation process:
+    - Prompt for GitHub User Name
+    - Prompt for GitHub email
+    - Prompt for ssh file name
+    - ...
+- Begin with a menu
+  - Display if settings.cmd exists - This determines if this is a new setup
+  - List Existing Accounts
+    - Only display the GitHub User Name, email, ...
+    - Select account via prompt and display the PAT / copy to clipboard
+  - New SSH
+  - Help
+    - Open a browser to this repo readme file
